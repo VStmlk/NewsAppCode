@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--checkableBehavior指定为single表示组中的所有菜单项只能单选。-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_me"
+            android:icon="@drawable/nav_me"
+            android:title="个人" />
+        <item
+            android:id="@+id/nav_collect"
+            android:icon="@drawable/ic_collect"
+            android:title="收藏" />
+        <item
+            android:id="@+id/nav_noimage"
+            android:icon="@drawable/nav_noimage"
+            android:title="无图" />
+        <item
+            android:id="@+id/nav_blacktheme"
+            android:icon="@drawable/nav_blacktheme"
+            android:title="夜间" />
+
+    </group>
+</menu>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/News_detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_nav_view"
+        tools:context=".Message_pro">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title-然后除了跳转我们还需要写一个返回用来退出当前活动"
+                android:textSize="30dp"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+
+            <LinearLayout
+                android:id="@+id/data_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    android:id="@+id/news_date"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:text="2021-10-11 16:36"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#B1B1B1" />
+                <TextView
+                    android:id="@+id/news_from"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="轩云阁"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textColor="#B1B1B1" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#777777"
+                android:layout_marginBottom="10dp"/>
+
+            <!--android:adjustViewBounds="true"确保ImageView的大小自动调整为其内容的大小 -->
+
+
+            <TextView
+                android:id="@+id/message_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="继续往下看，的长度就可以了asdf df的长度就可以了asdf df sdf sd撒地方十三点的长度就可以了asdf df sdf sd撒地方十三点 sdf sd撒地方十三点 撒地方 撒地方撒旦f fsdf sdf sdf sd fsdf sdf f 旦发生纠纷楼上楼上的撒地方临时搭建楼上的律师代理费流口水的撒旦撒地方撒地方撒地方撒旦楼上的是德国记录卡撒旦 撒旦"
+                android:textSize="20dp"
+                android:layout_margin="10dp" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#777777"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="评论"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/commentRecyclerView"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8E8E8"/>
+            <!-- android:background="#FFFFFF"，白色背景简单处理ScrollView和RecyclerView的冲突-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

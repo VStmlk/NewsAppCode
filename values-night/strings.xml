@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="daynight">DayNight</string>
+    <string name="day_night_label">日间模式</string>
+</resources>

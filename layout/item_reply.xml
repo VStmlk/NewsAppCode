@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/reply"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:id="@+id/nameTextView"
+            android:text="name"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#03A9F4"/>
+        <TextView
+            android:id="@+id/timeTextView"
+            android:text="5月4日  23:43"
+            android:textStyle="italic"
+            android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
+            android:textSize="18dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C3C3C3"/>
+    <TextView
+        android:id="@+id/contentTextView"
+        android:text="content"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginStart="45dp"/>
+
+
+
+</LinearLayout>

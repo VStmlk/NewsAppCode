@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- 原本是 Theme.MaterialComponents.DayNight.DarkActionBar-->
+    <style name="Theme.Remove" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->   <!-- Dark显示顶部栏，No隐藏 -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Night" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_night</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_night</item>
+        <item name="colorAccent">@color/colorAccent_night</item>
+        <item name="android:background">@color/background_night</item>
+    </style>
+
+    <!-- Navigation界面item字体大小 -->
+    <style name="NavigationDrawerTextStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+
+    <!-- 底部导航栏按钮theme. -->
+    <style name="footButton" parent="Theme.Remove">
+        <item name="colorPrimary">#808080</item>
+    </style>
+
+</resources>

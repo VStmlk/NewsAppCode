@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">新闻参实</string>
+    <string name="red">RedFlour</string>
+    <string name="redsay">How are you?</string>
+    <string name="nowtime">18:22</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="comment">评论</string>
+    <string name="collect">收藏</string>
+    <string name="reply">回复</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+
+    <!--添加一个布尔类型的标志来表示当前是否为夜间模式-->
+    <bool name="is_night_mode">false</bool>
+
+
+    <string name="daynight">DayNight</string>
+    <string name="day_night_label">日间模式</string>
+
+</resources>
